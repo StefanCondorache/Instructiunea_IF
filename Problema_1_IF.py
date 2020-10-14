@@ -1,3 +1,8 @@
+# Se introduc trei date de forma număr curent elev, punctaj. 
+# Afişaţi numărul elevului cu cel mai mare punctaj. Exemplu : Date de
+# intrare nr crt 7 punctaj 120 nr crt 3 punctaj 100 nr crt 4 punctaj 119 
+# Date de ieşire punctaj maxim are elevul cu nr crt 7.
+
 n1=int(input("nr crt "))
 p1=int(input("punctaj"))
 n2=int(input("nr crt"))
