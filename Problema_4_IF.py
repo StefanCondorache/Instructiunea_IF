@@ -3,9 +3,9 @@
 a=int(input("a="))
 b=int(input("b="))
 c=int(input("c="))
-if (a>18) and (a<60):
+if (a>=18) and (a<=60):
     print(a)
-if (b>18) and (b<60):
+if (b>=18) and (b<=60):
     print(b)
-if (c>18) and (c<60):
+if (c>=18) and (c<=60):
     print(c)
