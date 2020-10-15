@@ -14,9 +14,19 @@ if (n1+n3+n5)>(n2+n4+n6):
     print("Mici:",(n1+n3+n5),"bile")
 elif (n1+n3+n5)<(n2+n4+n6):
     print("Mari:",(n2+n4+n6),"bile")
+elif (n1+n3+n5)==(n2+n4+n6):
+    print("bilele mari și mici sunt de un numar",(n1+n3+n5))
 if (n1+n2)>(n3+n4) and (n1+n2)>(n5+n6):
     print("Albe:",(n1+n2),"bile")
 elif (n1+n2)<(n3+n4) and (n3+n4)>(n5+n6):
     print("Rosii:",(n3+n4),"bile")
 elif (n5+n6)>(n3+n4) and (n2+n1)<(n5+n6):
     print("Verzi:",(n5+n6),"bile")
+elif (n1+n2)==(n3+n4) and (n1+n2)>(n5+n6):
+    print("Albe și Roșii:",(n1+n2),(n3+n4),"bile")
+elif (n1+n2)>(n3+n4) and (n1+n2)==(n5+n6):
+    print("Albe și Verzi:",(n3+n4),(n5+n6),"bile")
+elif (n5+n6)==(n3+n4) and (n2+n1)<(n5+n6):
+    print("Verzi și Roșii:",(n5+n6),(n3+n4),"bile")
+elif (n1+n2==n3+n4) and (n3+n4==n5+n6):
+    print("toate bilele sunt de un numar",n1+n2)
