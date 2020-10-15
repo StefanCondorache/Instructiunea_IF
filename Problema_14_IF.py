@@ -2,4 +2,7 @@
 # Exemplu : date de intrare : n=69 date de ieşire : casuta 17.
 n=int(input("n="))
 if n>0:
-    print("casuta",n//4)
+    if n%4==0:
+        print("casuta",n//4) 
+    elif n%4!=0:
+        print("casuta",(n//4)+1)
