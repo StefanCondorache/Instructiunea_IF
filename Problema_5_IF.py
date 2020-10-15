@@ -12,11 +12,12 @@ ziua2=int(input("ziua="))
 if (anul2>anul1) or (ziua1>31) or (ziua2>31) or (luna1>12) or (luna2>12):
     print("IMPOSIBIL")
     del(anul1,anul2)
-if (luna1>=luna2):
+if (luna1==luna2):
     if (ziua1<ziua2):
         print((anul1-anul2)-1,"ani")
     elif (ziua1>=ziua2):
         print(anul1-anul2,"ani")
+elif (luna1>luna2):
+    print(anul1-anul2,"ani")
 elif (luna1<luna2):
     print((anul1-anul2)-1,"ani")
-    
