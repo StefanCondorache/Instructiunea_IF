@@ -9,5 +9,7 @@ if (n1>0) and (n2>0) and (n3>0):
         print(n2)
     elif n3>n2:
         print(n3)
+    elif n2==n3:
+        print(n2)
 else:
     print(n1+n2)
